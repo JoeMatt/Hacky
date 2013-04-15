@@ -66,6 +66,8 @@
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
+@property (nonatomic, strong) IBOutlet NSTextField *storyTitleLabel;
+
 - (IBAction)didClickReloadMenuItem:(id)sender;
 - (IBAction)didClickMarkAllAsReadButton:(id)sender;
 - (IBAction)didClickOpenURLButton:(id)sender;
